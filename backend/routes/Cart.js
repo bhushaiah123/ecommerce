@@ -57,5 +57,4 @@ router.post("/add",isAuthenticated,async (req,res)=>{
     return res.status(500).json({"message":"internal server error while adding to cart"})
   }
 })
-
 module.exports=router

@@ -2,10 +2,10 @@
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 import Home from "./Components/Home.jsx";
 import Register from "./components/Register.jsx";
-import Login from "./components/Login.jsx";
+import Login from "./Components/Login.jsx";
 import Navigation from "./components/Navigation.jsx";
-import AddProduct from "./components/AddProduct.jsx";
-import Cart from './components/Cart.jsx'
+import AddProduct from "./Components/AddProduct.jsx";
+import Cart from "./Components/Cart.jsx";
 
 export default function App() {
   return (
